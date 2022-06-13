@@ -1,8 +1,25 @@
-header {
-    color: #0C25A2;
-    background-color: aquamarine;
+@font-face {
+    font-family: "Philosopher";
+    src: url("assets/fonts/Philosopher-Regular.ttf");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "Philosopher";
+    src: url("assets/fonts/Philosopher-Bold.ttf");
+    font-weight: 700;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+body {
+    background-image: url("assets/img/bgimg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: Philosopher;
+    color: #1e3966;
 }
-footer {
-    color: blueviolet;
-    background-color: azure;
-}
+

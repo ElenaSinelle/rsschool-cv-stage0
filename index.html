@@ -5,29 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
 </head>
 <body>
-    <header>
-        <h1>Curriculum Vitae</h1>
+    <header class="header">
+        <h1>Elena Sinelnikova</h1>
+
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Profile</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#contacts" class="nav-link">IT Skills</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Languages</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Code Example</a></li>
+            </ul>
+          </nav>
     </header>
-    <main>
-        <h2>Contacts</h2>
-        <p>Here are my contact details</p>
 
-        <h2>Profile</h2>
-        <p>Here I've written some words about myself</p>
+    <main class="main">
+        <section>
+            <h2>Profile</h2>
+            <p>My name is Elena. I have a wide education and working experience in various fields, which I mastered and enjoyed. At present stage of my life I am interested in IT sphere, namely in front-end development. My personal qualities, such as determination, mathematical and creative thinking and constant desire for self-development, always help me to achieve my goal.</p>
+        </section>
 
-        <h2>Education</h2>
-        <p>My Unis</p>
+        <section>
+            <h2>Contacts</h2>
+            <ul>
+                <li>Phone: +375 29 677 04 84</li>
+                <li>email: elle.sinelle@gmail.com</li>
+                <li>GitHub: ElenaSinelle</li>
+                <li>Discord: ElenaSinelle</li>
+                <li>Location: Minsk, Belarus</li>
+            </ul>
+        </section>
 
-        <h2>IT Skills</h2>
-        <p>What I can do</p>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>BA in Economics, Minsk, Belarus</li>
+                <li>MA in International Relations, Minsk, Belarus</li>
+                <li>MA in EU Studies, Sussex, UK</li>
+                <li>Degree in Fashion Design, Minsk, Belarus</li>
+                <li>JS / Front-end Course at RS School (in process)</li>
+            </ul>
+        </section>
 
-        <h2>Languages</h2>
-        <p>Which languages I speak</p>
+        <section>
+            <h2>IT Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>GIT</li>
+                <li>Java Script</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Languages</h2>
+            <ul>
+                <li>Russian (native)</li>
+                <li>Belarussian (native)</li>
+                <li>English (advanced)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Code Example</h2>
+            <pre>
+                <code>
+let gender = prompt ('What gender are you?', ' ');
+               
+let message = (gender == 'male') ? 'Hello, Mr!' : 
+(gender =='female') ? 'Hello, Mrs!' : 
+(gender == 'other') ? 'Hello, Darling!' :
+'Hello, anyway!';
+               
+alert (message);
+                               
+                </code>
+            </pre>
+        </section>
+
     </main>
     <footer>
         <p>Some conclusive info</p>
-    </footer>
+    </footer class="footer">
 </body>
 </html>
