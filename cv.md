@@ -2,7 +2,7 @@
 
 ## Elena Sinelnikova
 
-![photo](https://github.com/ElenaSinelle/rsschool-cv/blob/gh-pages/photo.jpg)
+![photo](assets/img/photo.jpg)
 
 ## Contacts
 
